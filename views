@@ -1,0 +1,11 @@
+create view myview as select rollno,name from st1;
+select * from tab;
+insert into myview values(506,'prathisha');
+select * from myview;
+select * from st1;
+delete from myview where rollno=506;
+select * from myview;
+select * from st1;
+create view myview2 as select * from st1 where marks<101 with check option;
+insert into myview2 values(504,'siri',101);
+Drop View myview1;
