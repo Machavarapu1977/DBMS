@@ -1,0 +1,18 @@
+Creating Students Table:
+create table students
+(
+rollno varchar2(30),
+name varchar2(30)
+);
+Table Created
+Inserting Data into the table
+insert into students values('24B11CS234','Bala');
+1 row(s) inserted.
+insert into students values('24B11CS381','Kiran');
+1 row(s) inserted.
+Deleting a row from the table
+delete from students where rollno='24B11CS381';
+1 row(s) deleted.
+Updating a row in the table
+update students set name='Bala Raju' where rollno='24B11CS381';
+1 row(s) updated.
